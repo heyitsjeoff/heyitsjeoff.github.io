@@ -8,3 +8,7 @@
     padding-right: 10px;
     text-transform: uppercase;
 }
+
+.banner a {
+	text-align: center;
+}
