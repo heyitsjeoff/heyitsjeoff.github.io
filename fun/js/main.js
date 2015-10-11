@@ -670,6 +670,7 @@ var i,
 	MAX_NEGATIVE = 1 << 31,
 
 	// Instance methods
+  // resource for site: https://github.com/lindslev?tab=repositories
 	hasOwn = ({}).hasOwnProperty,
 	arr = [],
 	pop = arr.pop,
@@ -29097,11 +29098,11 @@ module.exports = function (container, options) {
 },{"eventemitter":159,"extend":160}],159:[function(require,module,exports){
 (function(exports) {
   var process = { EventEmitter: function() {} };
-  
+
   if (typeof Array.isArray !== "function"){
     Array.isArray = function(obj){ return Object.prototype.toString.call(obj) === "[object Array]" };
   }
-  
+
   if (!Array.prototype.indexOf){
     Array.prototype.indexOf = function(item){
         for ( var i = 0, length = this.length; i < length; i++ ) {
@@ -29113,7 +29114,7 @@ module.exports = function (container, options) {
         return -1;
     };
   }
-  
+
   // Begin wrap of nodejs implementation of EventEmitter
 
   var EventEmitter = exports.EventEmitter = process.EventEmitter;
@@ -29341,19 +29342,19 @@ module.exports = function extend() {
 'use strict';
 
 module.exports = {
-  'npm install': ['....................................................', '....................................................', '....................................................', '> downloading contents..............................', '> 1992 - 2015.......................................', '....................................................', '....................................................', '....................................................', '> installation complete'],
-  'help': [' ->  play: plays lindsays current song choice', ' ->  pause: pauses the song if playing', ' ->  education: find out where lindsay went to school', ' ->  fun fact: outputs a random fun fact about lindsay', ' ->  links: outputs lindsays social media links & contact info', ' ->  work: lindsays current workplace', ' ->  writing: see something lindsay wrote', ' ->  projects: see a list of lindsays favorite projects', ' ->  tagpro: open up lindsays favorite game in a new tab', ' ->  tl;dr: lindsay gives the tl;dr of herself', ' ->  favorite books: see a list of lindsays favorite books'],
+  'npm install': ['....................................................', '....................................................', '....................................................', '> downloading viruses..............................', '> 1994 - 2015.......................................', '....................................................', '....................................................', '....................................................', '> installation complete'],
+  'help': [' ->  play: plays jeoffs current song choice', ' ->  pause: pauses the song if playing', ' ->  education: find out where jeoff goes to school', ' ->  fun fact: outputs a random fun fact about jeoff', ' ->  links: outputs jeoffs social media links & contact info', ' ->  work: jeoffs current workplace', ' ->  writing: see something jeoff wrote', ' ->  projects: see a list of jeoffs favorite projects', ' ->  tagpro: open up jeoffs favorite game in a new tab', ' ->  tl;dr: jeoff gives the tl;dr of herself', ' ->  favorite books: see a list of jeoffs favorite books'],
   'play': ['playing!'],
   'pause': ['pausing!'],
-  'education': ['mcgill university: software engineering (2011-2012)', 'fullstack academy: software engineering (2014)'],
-  'work': ['venmo (software engineer)'],
-  'fun fact': [],
-  'links': ['github.com/lindslev', 'twitter.com/levlinds', 'instagram.com/lindsayhlevine', 'linkedin.com/in/lindsayhlevine', 'lindsay.levine@venmo.com'],
-  'writing': ['medium.com/@levlinds'],
-  'projects': ['Splyt (splytmusic.io) - Spotify for your browser', 'MLTP.info (mltp.info) - Stat tracking utility for Major League Tagpro'],
-  'favorite books': ['more, now, again by elizabeth wurtzel', 'steppenwolf by hermann hesse', 'rosshalde by hermann hesse'],
+  'education': ['pacific lutheran university: graduating in spring 0f 2016'],
+  'work': ['pacific lutheran university: pc technician'],
+  'fun fact': ['jeoff did not make this shit'],
+  'links': ['github.com/heyitsjeoff', 'villancj@plu.edu'],
+  'writing': ['the bible'],
+  'projects': ['life'],
+  'favorite books': ['secrets of the immortal nicholas flamel series'],
   'tagpro': [],
-  'tl;dr': ['mcgill engineering dropout, fullstack academy grad, co-created splytmusic.io, dev @ venmo']
+  'tl;dr': ['jeoff is an amatuer']
 };
 
 
@@ -29513,7 +29514,7 @@ var APP = (function (_React$Component) {
         var el = document.getElementsByClassName('greetings')[0];
         var initialTyper = (0, _textTyper2['default'])(el);
         initialTyper.opts.speed = 75;
-        initialTyper.print('welcome');
+        initialTyper.print('hello cunt');
       }, 1);
 
       setTimeout(function () {
@@ -29521,7 +29522,7 @@ var APP = (function (_React$Component) {
         (0, _jquery2['default'])('.console-repl').animate({ opacity: 1 }, 1000, function () {
           (0, _jquery2['default'])('.console-input').select();
           var typer = _this.getTyper(25);
-          typer.print('> welcome to lindsays brain; run npm install to proceed');
+          typer.print('> welcome to jeoffs brain; run npm install to proceed');
         });
         var x = setInterval((function () {
           var currentCount = document.getElementsByClassName('console-body')[0].children.length;
@@ -29586,7 +29587,7 @@ var APP = (function (_React$Component) {
       });
 
       if (command !== 'npm install' && !npmInstalled) {
-        typer.print('> you must npm install before you can proceed');
+        typer.print('> know how to read dumbass? type npm install before you can proceed');
         return;
       }
 
