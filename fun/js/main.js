@@ -29348,7 +29348,7 @@ module.exports = {
   'pause': ['pausing!'],
   'education': ['pacific lutheran university: graduating in spring 0f 2016'],
   'work': ['pacific lutheran university: pc technician'],
-  'fun fact': ['jeoff did not make this shit'],
+  'fun fact': [],
   'links': ['github.com/heyitsjeoff', 'villancj@plu.edu'],
   'writing': ['the bible'],
   'projects': ['life'],
@@ -29431,7 +29431,7 @@ module.exports = exports['default'];
 },{"jquery":2,"react":157}],163:[function(require,module,exports){
 'use strict';
 
-module.exports = ['at age 7, lindsay won camper of the year her first summer at sleepaway camp', 'lindsay likes to longboard when she lives in a city', 'lindsay hates taking the subway but loves subway the restaurant', 'lindsay played soccer, basketball and tennis growing up', 'lindsay fractured her pelvis skiing in january 2015', 'lindsay volunteered in port elizabeth, eastern cape, south africa in fall 2012', 'lindsay dropped of mcgill after one year in 2012', 'lindsays favorite band has been brand new since 2010', 'lindsay is addicted to coca cola', 'lindsays favorite movie is adventureland', 'lindsays favorite author is elizabeth wurtzel', 'lindsays favorite book series from her childhood is pendragon', 'lindsays favorite tv show is fringe #rip', 'lindsays favorite living thing is her chihuahua', 'lindsay has never had her ears pierced', 'lindsay grew up in suburban pennsylvania', 'lindsay was one of the original 10 fellows in the uncollege gap year program', 'lindsay prefers to sleep with white noise', 'lindsay is a night owl'];
+module.exports = ['jeoff likes jaden smith', 'jeoffs favorite color is blue', 'in the 9th grade, jeoff became a vegan', 'jeoff is a fan of minimalism'];
 
 
 },{}],164:[function(require,module,exports){
