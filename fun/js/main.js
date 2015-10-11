@@ -29342,7 +29342,7 @@ module.exports = function extend() {
 'use strict';
 
 module.exports = {
-  'npm install': ['....................................................', '....................................................', '....................................................', '> downloading viruses...............................', '> 1994 - 2015.......................................', '....................................................', '....................................................', '....................................................', '> installation complete'],
+  'npm install': ['....................................................', '....................................................', '....................................................', '> downloading viruses................................', '> 1994 - 2015.......................................', '....................................................', '....................................................', '....................................................', '> installation complete'],
   'help': [' ->  play: plays jeoffs current song choice', ' ->  pause: pauses the song if playing', ' ->  education: find out where jeoff goes to school', ' ->  fun fact: outputs a random fun fact about jeoff', ' ->  links: outputs jeoffs social media links & contact info', ' ->  work: jeoffs current workplace', ' ->  writing: see something jeoff wrote', ' ->  projects: see a list of jeoffs favorite projects', ' ->  tagpro: open up jeoffs favorite game in a new tab', ' ->  tl;dr: jeoff gives the tl;dr of herself', ' ->  favorite books: see a list of jeoffs favorite books'],
   'play': ['playing!'],
   'pause': ['pausing!'],
