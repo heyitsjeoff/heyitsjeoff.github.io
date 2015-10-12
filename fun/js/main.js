@@ -29343,10 +29343,10 @@ module.exports = function extend() {
 
 module.exports = {
   'npm install': ['....................................................', '....................................................', '....................................................', '> downloading viruses...............................', '> 1994 - 2015.......................................', '....................................................', '....................................................', '....................................................', '> installation complete'],
-  'help': [' ->  play: plays jeoffs current song choice', ' ->  pause: pauses the song if playing', ' ->  education: find out where jeoff goes to school', ' ->  fun fact: outputs a random fun fact about jeoff', ' ->  links: outputs jeoffs social media links & contact info', ' ->  work: jeoffs current workplace', ' ->  writing: see something jeoff wrote', ' ->  projects: see a list of jeoffs favorite projects', ' ->  tagpro: open up jeoffs favorite game in a new tab', ' ->  tl;dr: jeoff gives the tl;dr of herself', ' ->  favorite books: see a list of jeoffs favorite books'],
+  'help': [' ->  play: plays jeoffs current song choice', ' ->  pause: pauses the song if playing', ' ->  education: find out where jeoff goes to school', ' ->  fun fact: outputs a random fun fact about jeoff', ' ->  links: outputs jeoffs social media links & contact info', ' ->  work: jeoffs current workplace', ' ->  writing: see something jeoff wrote', ' ->  projects: see a list of jeoffs favorite projects', ' ->  tagpro: open up jeoffs favorite game in a new tab', ' ->  tl;dr: jeoff gives the tl;dr of himself', ' ->  favorite books: see a list of jeoffs favorite books'],
   'play': ['playing!'],
   'pause': ['pausing!'],
-  'education': ['pacific lutheran university: graduating in spring 0f 2016'],
+  'education': ['pacific lutheran university: graduating in spring of 2016'],
   'work': ['pacific lutheran university: pc technician'],
   'fun fact': [],
   'links': ['github.com/heyitsjeoff', 'villancj@plu.edu'],
