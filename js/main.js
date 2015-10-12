@@ -29354,6 +29354,7 @@ module.exports = {
   'projects': ['life'],
   'favorite books': ['secrets of the immortal nicholas flamel series'],
   'tagpro': [],
+  'maker': [],
   'tl;dr': ['jeoff is an amatuer']
 };
 
@@ -29619,6 +29620,9 @@ var APP = (function (_React$Component) {
       }
       if (command === 'tagpro') {
         window.open('http://tagpro.gg', '_blank');
+      }
+      if (command === 'maker') {
+        window.open('http://www.lindsaylevine.com/', '_blank');
       }
     }
   }, {
