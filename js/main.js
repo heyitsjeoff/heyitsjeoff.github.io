@@ -29514,7 +29514,7 @@ var APP = (function (_React$Component) {
         var el = document.getElementsByClassName('greetings')[0];
         var initialTyper = (0, _textTyper2['default'])(el);
         initialTyper.opts.speed = 75;
-        initialTyper.print('hello cunt');
+        initialTyper.print('hello world');
       }, 1);
 
       setTimeout(function () {
@@ -29587,7 +29587,7 @@ var APP = (function (_React$Component) {
       });
 
       if (command !== 'npm install' && !npmInstalled) {
-        typer.print('> know how to read dumbass? type npm install before you can proceed');
+        typer.print('> know how to read? type npm install before you can proceed');
         return;
       }
 
