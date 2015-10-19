@@ -1,1 +1,0 @@
-Upload an image or link us to one already on the interwebs and we'll write a super meta poem about it.
