@@ -1,0 +1,84 @@
+a:hover {
+	background-color:papayawhip;
+	text-decoration:none;
+}
+
+.masthead {
+	padding-top:1rem;
+	padding-bottom:1rem;
+	margin-bottom:0;
+}
+
+.top-nav a {
+	color:#6D6D6D;
+}
+
+.top-nav span:after {
+	content:' /';
+}
+
+.top-nav span:last-of-type:after {
+	content:'';
+}
+
+.copyright {
+	color:#A4A4A4;
+	font-size:13pt;
+	border-top:3px;
+	border-top-color:#eee;
+	border-top-style:solid;
+	border-top-width:thin;
+	padding-top:10px;
+}
+
+ul dl, ul ul, ul ol {
+	margin-bottom:0;
+}
+
+.page, .post {
+	margin-bottom:1.5em;
+}
+
+.post-header, .page-header {
+	font-family:'Open Sans',  "Helvetica Neue",  Helvetica,  Arial,  sans-serif;
+	text-align:center;
+	margin-bottom:1em;
+}
+
+.post-title, .page-title {
+	font-weight:700;
+}
+
+.post-content, .page-content {
+	font-family:'Droid Serif',  serif;
+	line-height:1.65;
+}
+
+.footnote-anchor {
+	font-weight:bold;
+}
+
+.footnote-link {
+	font-style:italic;
+}
+
+#related-posts h3 {
+	margin-top:0px;
+	float:left;
+}
+
+#related-posts span.twitter-button {
+	float:right;
+}
+
+.algorithmia-recommends li:nth-child(n+4) {
+	display:none;
+}
+
+#archive-table ul {
+	margin-bottom:0;
+}
+
+.prep-problem-title {
+	margin-bottom:.1em;
+}
